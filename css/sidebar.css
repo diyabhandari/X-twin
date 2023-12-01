@@ -1,0 +1,80 @@
+
+.sidebar{
+  position: relative;
+  padding-left: 150px;
+  padding-top: 12px;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: rgb(237, 237, 237);
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index:100;
+  width: 270px;
+  
+}
+.sidebar-content{
+  display: flex;
+  flex-direction: row;
+  padding-left: 4px;
+  height: 55px;
+  align-items: center;
+  font-size: 22px;
+  color: rgb(59, 59, 59);
+}
+.tw-logo{
+  height: 35px;
+  padding-right: 4px;
+
+}
+.sidebar-icon{
+  padding-right: 20px;
+}
+.icon{
+  height: 30px;
+  padding-top: 2px;
+}
+.post-button-box{
+  padding-bottom: 40px;
+  height: 60px;
+  padding-top: 5px;
+  margin-left: -16px;
+  
+}
+.post-button-1{
+  background-color: #1DA1F2;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  border-style: none;
+  padding: 18px 108px;
+  border-radius: 50px;
+}
+.twitter-handle{
+  display: flex;
+  flex-direction: row;
+}
+.handle-pfp{
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.handle-text{
+  font-size: 17px;
+  margin-right: 50px;
+}
+.handle-name{
+  font-weight: 700;
+}
+.handle-user{
+  color: rgb(59, 59, 59);
+}
+.handle-more-button{
+  margin-top: 10px;
+}
+
+.sidebar-content:hover{
+  border-style: solid;
+  border-radius: 30px;
+
+}

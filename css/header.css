@@ -1,0 +1,47 @@
+.headbar {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 108px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: rgb(237, 237, 237);
+}
+.home-belt{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.home{
+  display: flex;
+  padding-left: 12px;
+  padding-top: 4px;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.following{
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  color: gray;
+  height: 50px;
+  align-items: center;
+  transition: opacity 0.15s;
+}
+.following:hover,.for-you:hover{
+  cursor: pointer;
+  color: black;
+  background-color:rgb(237, 237, 237);
+
+}
+.for-you{
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  color: gray;
+  height: 50px;
+  align-items: center;
+  transition: opacity 0.15s;
+
+}
